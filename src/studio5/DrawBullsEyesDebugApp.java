@@ -8,10 +8,8 @@ import studio5.debug.DrawBullsEyes;
 import support.cse131.DialogBoxes;
 import support.cse131.DrawCase;
 
-/**
- * @author Dennis Cosgrove (http://www.cse.wustl.edu/~cosgroved/)
- */
-public class DrawBullsEyesDebugApp {
+public class DrawBullsEyesDebugApp 
+{
 	public static void main(String[] args) {
 		SwingUtilities.invokeLater(() -> {
 			for (DrawCase drawCase : DrawBullsEyes.getCases()) {
